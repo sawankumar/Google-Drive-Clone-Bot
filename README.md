@@ -6,10 +6,10 @@
 
 ## 📗 Pre-requisites:-
 1. [Install Python 3.7+](https://www.python.org/downloads/)（Latest version 3.8.3 recommended）
-2. You need Generated SAs (using [Autorclone](https://github.com/xyou365/AutoRclone) or [Folderclone](https://github.com/Spazzlo/folderclone))
+2. You need Generated SAs (using [Autorclone](https://github.com/sawankumar/AutoRclone) or [Folderclone](https://github.com/sawankumar/Folderclone)
 3. Open **accounts** Folder (inside Autorclone or Folderclone Folder) and select any one of the json files and rename it as **1.json**
 4. Zip the accounts Folder and keep it safe
-5. Make a new bot from [Bot Father](https://core.telegram.org/bots#6-botfather) and get the **Bot token**
+5. Make a new bot from Bot Father and get the **Bot token**
 6. Get your own Telegram ID.
 
 ## 📙 Installation:-

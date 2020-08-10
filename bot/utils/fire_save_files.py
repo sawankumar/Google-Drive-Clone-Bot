@@ -180,7 +180,7 @@ class MySaveFileThread(threading.Thread):
                     if match:
                         message_progress = '{}\n<code>Write permission error, please check permissions</code>'.format(message_progress)
                         temp_message = '{}{}'.format(message, message_progress)
-                        # logger.info('写入权限错误，请确认权限'.format())
+                        # logger.info('Write permission error, Please confirm permission'.format())
                         try:
                             context.bot.edit_message_text(chat_id=chat_id, message_id=message_id,
                                                           text=temp_message, parse_mode=ParseMode.HTML,
@@ -197,7 +197,7 @@ class MySaveFileThread(threading.Thread):
                     if match:
                         message_progress = '{}\n<code>Read permission error, please check permissions</code>'.format(message_progress)
                         temp_message = '{}{}'.format(message, message_progress)
-                        # logger.info('读取权限错误，请确认权限：')
+                        # logger.info('Read permission error, Please confirm permission:')
                         try:
                             context.bot.edit_message_text(chat_id=chat_id, message_id=message_id,
                                                           text=temp_message, parse_mode=ParseMode.HTML,
