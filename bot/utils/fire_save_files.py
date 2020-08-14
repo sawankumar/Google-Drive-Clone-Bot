@@ -158,7 +158,7 @@ class MySaveFileThread(threading.Thread):
                                        'Transfers： <code>{} / {}</code>\n' \
                                        'File size：<code>{} / {}</code>\n{}' \
                                        'Speed：<code>{}</code>\n' \
-									   'ETA：<code>{}</code>\n' \
+				   'ETA：<code>{}</code>\n' \
                                        'Progress：<code>[{}] {: >4}%</code>' \
                         .format(
                         folder_id,
