@@ -154,9 +154,9 @@ class MySaveFileThread(threading.Thread):
                         progress_total_check_files = int(match_checked_files.group(2))
                     progress_max_percentage_10 = max(progress_size_percentage_10, progress_file_percentage_10)
                     message_progress = '<a href="https://drive.google.com/open?id={}">{}</a>\n' \
-                                       'Checks： <code>{} / {}</code>\n' \
-                                       'Transfers： <code>{} / {}</code>\n' \
-                                       'File size：<code>{} / {}</code>\n{}' \
+                                       'Checks： <code>{}/{}</code>\n' \
+                                       'Transfers： <code>{}/{}</code>\n' \
+                                       'File size：<code>{}/{}</code>\n{}' \
                                        'Speed：<code>{}</code>\n' \
                                        'ETA：<code>{}</code>\n' \
                                        'Progress：<code>[{}] {: >4}%</code>' \
