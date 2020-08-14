@@ -237,19 +237,19 @@ class MySaveFileThread(threading.Thread):
             try:
                 link = gd.get_folder_link(dest_folder['folder_id'], destination_path)
                 if link:
-                    link_text = '<a href="{}">Link</a>'.format(link)
+                    link_text = '<a href="{}">DONE !!</a>'.format(link)
             except Exception as e:
                 logger.info(str(e))
 
             if self.critical_fault is True:
-                message = '{}{}❌\n{}\n{}\n\n'.format(message, message_progress_heading, message_progress_content,
+                message = '{}{}| FAILED !\n{}\n{}\n\n'.format(message, message_progress_heading, message_progress_content,
                                                      link_text)
             elif progress_file_percentage == 0 and progress_checked_files > 0:
-                message = '{}{}✅\nFile already exists!\n{}\n\n'.format(message, message_progress_heading, link_text)
+                message = '{}{}| SUCCESS !\nFile already exists!\n{}\n\n'.format(message, message_progress_heading, link_text)
             else:
                 message = '{}{}{}\n{}\n{}\n\n'.format(message,
                                                       message_progress_heading,
-                                                      '✅' if rc == 0 else '❌',
+                                                      '| SUCCESS !' if rc == 0 else '| FAILED !',
                                                       message_progress_content,
                                                       link_text)
 
