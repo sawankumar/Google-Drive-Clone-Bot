@@ -157,7 +157,8 @@ class MySaveFileThread(threading.Thread):
                                        'Checks： <code>{} / {}</code>\n' \
                                        'Transfers： <code>{} / {}</code>\n' \
                                        'File size：<code>{} / {}</code>\n{}' \
-                                       'Speed：<code>{} ETA {}</code>\n' \
+                                       'Speed：<code>{}</code>\n' \
+									   'ETA：<code>{}</code>\n' \
                                        'Progress：<code>[{}] {: >4}%</code>' \
                         .format(
                         folder_id,
@@ -236,7 +237,7 @@ class MySaveFileThread(threading.Thread):
             try:
                 link = gd.get_folder_link(dest_folder['folder_id'], destination_path)
                 if link:
-                    link_text = '👉<a href="{}">Link</a>'.format(link)
+                    link_text =Destination Path: '<a href="{}">Here</a>'.format(link)
             except Exception as e:
                 logger.info(str(e))
 
