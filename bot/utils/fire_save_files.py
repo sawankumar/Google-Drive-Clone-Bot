@@ -242,14 +242,14 @@ class MySaveFileThread(threading.Thread):
                 logger.info(str(e))
 
             if self.critical_fault is True:
-                message = '{}{}| FAILED !\n{}\n{}\n\n'.format(message, message_progress_heading, message_progress_content,
+                message = '{}{}<b> | FAILED !</b>\n{}\n{}\n\n'.format(message, message_progress_heading, message_progress_content,
                                                      link_text)
             elif progress_file_percentage == 0 and progress_checked_files > 0:
-                message = '{}{}| SUCCESS !\nFile already exists!\n{}\n\n'.format(message, message_progress_heading, link_text)
+                message = '{}{}<b> | SUCCESS !</b>\nFile already exists!\n{}\n\n'.format(message, message_progress_heading, link_text)
             else:
                 message = '{}{}{}\n{}\n{}\n\n'.format(message,
                                                       message_progress_heading,
-                                                      '| SUCCESS !' if rc == 0 else '| FAILED !',
+                                                      '<b> | SUCCESS !</b>' if rc == 0 else '</b> | FAILED !</b>',
                                                       message_progress_content,
                                                       link_text)
 
