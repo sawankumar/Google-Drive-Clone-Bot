@@ -49,7 +49,7 @@ gclone_para_override = Leave it Blank
 
 # Deploy on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sawankumar/Fclone-Bot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sawankumar/Fclone-Bot-v1.0/tree/master)
 
 
 ## Note:
