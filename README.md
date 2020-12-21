@@ -35,9 +35,9 @@ gclone_para_override = Leave it Blank
 4. After filling appropriate values - rename it as config.ini and save it
 
 ## Running the Bot
-🔷 Running in your own System - `python fclone.py`
+Running in your own System - `python fclone.py`
 
-🔶 Running it in Heroku:-
+Running it in Heroku:-
 
 1. Create one app in Heroku
 2. Push the Files to Heroku using Heroku CLI
@@ -47,6 +47,6 @@ gclone_para_override = Leave it Blank
 6. Type /`folders` and set your favourite Folders
 7. Send or forward a message with a Google Drive link to the bot to start Copying...
 
-# Deploy on Heroku
+## Deploy on Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sawankumar/Fclone-Bot-v1.0/tree/master)
