@@ -1,11 +1,27 @@
 {
   "name": "Fclone-Bot",
   "description": "Fclone is just another Tool like Autorclone/Folderclone/Gclone to bypass 750GB limit by google (more optimised for speed)",
-  "keywords": [
-    "Fclone"
-  ],
   "repository": "https://github.com/sawankumar/Fclone-Bot",
-  "success_url": "https://telegram.dog/FclooneBot",
-  "website": "https://github.com/sawankumar/Fclone-Bot",  
+  "env": {
+    "telegram_token": {
+      "description": "The Telegram Bot Token That You Get From @BotFather",
+      "value": ""
+    },
+    "path_to_gclone": {
+      "description": "No Need To Change",
+      "value": "./fclone"
+    },
+    "user_ids": {
+      "description": "Your Telegram ID (multiple separated by commas, first ID is admin)",
+      "value": ""
+    },
+    "group_ids": {
+      "description": "Your Telegram Group ID (If you are not adding the bot to any group - you can leave it blank)",
+      "value": ""
+    },
+    "gclone_para_override": {
+      "description": "Leave it Blank",
+      "value": ""
+    }
   "stack": "container"
 }

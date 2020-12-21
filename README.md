@@ -4,7 +4,7 @@
 
 > ## Fclone Bot
 
-## 📗 Pre-requisites:-
+## Pre-requisites:-
 1. [Install Python 3.7+](https://www.python.org/downloads/)（Latest version 3.8.3 recommended）
 2. You need Generated SAs (using [Autorclone](https://github.com/sawankumar/AutoRclone) or [Folderclone](https://github.com/sawankumar/Folderclone)
 3. Open **accounts** Folder (inside Autorclone or Folderclone Folder) and select any one of the json files and rename it as **1.json**
@@ -12,7 +12,7 @@
 5. Make a new bot from Bot Father and get the **Bot token**
 6. Get your own Telegram ID.
 
-## 📙 Installation:-
+## Installation:-
 1. Download the Zip version of this repo or clone this repo using the command below
 ```
 git clone https://github.com/sawankumar/Fclone-Bot
@@ -34,7 +34,7 @@ gclone_para_override = Leave it Blank
 ```
 4. After filling appropriate values - rename it as config.ini and save it
 
-## 🍎 Running the Bot
+## Running the Bot
 🔷 Running in your own System - `python fclone.py`
 
 🔶 Running it in Heroku:-
@@ -50,8 +50,3 @@ gclone_para_override = Leave it Blank
 # Deploy on Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sawankumar/Fclone-Bot-v1.0/tree/master)
-
-
-## Note:
-- Commits Merged Till `August 04, 2020` [6eb74e2](https://github.com/roshanconnor123/Fclone_Tg_Bot/commits/master) from [Fclone_Tg_Bot](https://github.com/roshanconnor123/Fclone_Tg_Bot).
-
