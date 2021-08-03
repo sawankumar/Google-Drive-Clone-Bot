@@ -31,7 +31,6 @@ group_ids = Your Telegram Group ID (If you are not adding the bot to any group -
 
 gclone_para_override = Leave it Blank
 ```
-4. After filling appropriate values - rename it as config.ini and save it
 
 ## Running the Bot
 Running in your own System - `python fclone.py`
